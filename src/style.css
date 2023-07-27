@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(28, 39, 54);
+}
+
+.nav {
+  /* below makes nav bar sit on top of carousel */
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
+  padding-right: 16px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+/* screen smaller than 1000px hides the below element */
+@media screen and (max-width: 1000px) {
+  .aboutSectionWide {
+    display: none;
+  }
+}
+
+.aboutSectionWide {
+  position: absolute;
+  z-index: 10;
+  max-width: 100%;
+  width: 30%;
+  margin-left: 80px;
+  margin-top: 18px;
+  padding: 15px;
+  padding-top: 20px;
+  border: 1px solid white;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}
+
+/* screen wider than 999px hides the below element */
+@media screen and (min-width: 999px) {
+  .aboutSectionPhone {
+    display: none;
+  }
+}
+
+.aboutSectionPhone {
+  margin: auto; /* for horizontal centering */
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 15px;
+  padding-top: 20px;
+  border: 1px solid white;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 9pt;
+}
+
+.headingPhone {
+  margin: auto;
+  width: 50%;
+}
+
+h4 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 9pt;
+  margin-top: 40px;
+}

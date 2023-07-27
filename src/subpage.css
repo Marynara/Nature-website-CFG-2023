@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(255, 250, 243);
+}
+
+.nav {
+  /* below makes nav bar sit on top of image */
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
+  padding-right: 16px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+.heading {
+  margin: auto; /* for horizontal centering */
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  color: rgb(28, 39, 54);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 9pt;
+  margin-top: 40px;
+}
+
+.introText {
+  margin: auto; /* for horizontal centering */
+  width: 50%;
+  margin-bottom: 40px;
+  color: rgb(28, 39, 54);
+  padding: 15px;
+  padding-top: 20px;
+  border: 1px solid rgb(28, 39, 54);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.bodyText {
+  color: rgb(28, 39, 54);
+}
+
+.imgDirections {
+  background-color: rgb(228, 237, 249);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imgStyle {
+  padding: 7px;
+}
+
+.img-fluid {
+  border-radius: 5px;
+}
+
+.directionBox {
+  padding: 5px;
+  padding-left: 20px;
+  color: rgb(28, 39, 54);
+}
+
+footer {
+  background-color: rgb(228, 237, 249);
+  color: rgb(28, 39, 54);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
